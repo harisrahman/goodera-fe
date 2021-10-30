@@ -9,7 +9,7 @@ type UseApiCall = {
 
 export const useApiCall = (params: UseApiCall) => {
 	const { apiUrl, reqData, initDataValue } = params;
-	const [loading, setLoading] = useState(false);
+	const [loading, setLoading] = useState(true);
 	const [data, setData] = useState(initDataValue);
 	const [isFetchedOnce, setIsFetchedOnce] = useState(false);
 

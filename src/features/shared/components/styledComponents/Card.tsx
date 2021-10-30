@@ -1,5 +1,5 @@
-import tw from 'twin.macro';
-import styled from 'styled-components';
+import tw from "twin.macro";
+import styled from "styled-components";
 
 export default styled.div`
 	${tw`
@@ -8,7 +8,5 @@ export default styled.div`
 		p-4
 		sm:py-5
 		sm:px-8
-		h-full
-		w-full
 	`}
 `;
