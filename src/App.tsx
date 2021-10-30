@@ -12,11 +12,11 @@ function App() {
 			<BrowserRouter>
 				<Header />
 				<Switch>
-					<Route exact path="/" render={Home} />
-					<Route exact path="/upskill" render={Upskill} />
-					<Route exact path="/login" render={Login} />
-					<Route exact path="/post-job" render={PostJob} />
-					<Route path="*" render={NotFound} />
+					<Route exact path="/" component={Home} />
+					<Route exact path="/upskill" component={Upskill} />
+					<Route exact path="/login" component={Login} />
+					<Route exact path="/post-job" component={PostJob} />
+					<Route path="*" component={NotFound} />
 				</Switch>
 			</BrowserRouter>
 		</div>

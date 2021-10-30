@@ -10,7 +10,9 @@ export default function Search() {
 				<SelectOption value="" hidden>
 					Select location
 				</SelectOption>
-				<option value="">ansj</option>
+				<SelectOption value="">ansj</SelectOption>
+				<SelectOption value="">hnax</SelectOption>
+				<SelectOption value="">xxs</SelectOption>
 			</SelectInput>
 			<Button title="Search" className="flex-2" />
 		</Root>
@@ -42,12 +44,13 @@ const TextInput = styled.input`
 
 const SelectInput = styled.select`
 	${InputStyles}
+	${tw`
+		text-gray-400
+	`}
 `;
 
 const SelectOption = styled.option`
-	&::hidden {
-		${tw`
-			text-gray-200
-		`}
-	}
+	${tw`
+		text-black
+	`}
 `;
