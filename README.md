@@ -4,6 +4,10 @@
 	<a href="https://goodera-jobs.netlify.app/">Live URL</a>
 </h3>
 
+## Link to Front-end Repo
+
+[Frontend Repo](https://github.com/harisrahman/goodera-fe)
+
 ## Getting Started
 
 #### Prerequisites
